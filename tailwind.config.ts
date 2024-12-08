@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      letterSpacing:{
+        '3pct': '3%'
+      },
+      fontFamily:{
+        poppins: ['poppins', 'sans-serif'],
+        inter: ['inter' , 'sans-serif'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
